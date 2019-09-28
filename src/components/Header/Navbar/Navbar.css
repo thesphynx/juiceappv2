@@ -1,0 +1,50 @@
+.navbar_wrapper {
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+}
+
+.navbar_item {
+    border: 1px solid black;
+    position: relative;
+    width: 25%;
+    transform: skewX(-20deg);
+    background-color: rgb(233, 92, 115);
+    transition: all 1s;
+}
+
+.navbar_item a {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 1.5s ease;
+}
+
+.navbar_item a:hover {
+    color: rgb(233, 92, 115);
+}
+
+.navbar_item:hover {
+    margin: 0 6px;
+    background-color: rgb(34, 4, 4);
+}
+
+.navbar_item a span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}

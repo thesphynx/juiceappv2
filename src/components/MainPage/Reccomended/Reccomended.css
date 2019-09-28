@@ -1,0 +1,40 @@
+.reccomended_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.reccomended_item {
+    border-radius: 10px;
+    background-color: rgb(19, 4, 4);
+}
+
+.rec_img img {
+    width: 100%;
+    border-radius: 150px;
+    transform: scale(0.8);
+}
+
+.rec_text {
+    color: rgb(233, 92, 115);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rec-link {
+    text-align: center;
+}
+
+.rec_link a {
+    text-decoration: none;
+    color: gold;
+}
+
+.reccomended {
+    margin-bottom: 20px;
+}
+
+.reccomended h1 {
+    text-align: center;
+    color: gold;
+}
